@@ -14,6 +14,6 @@ COPY ./testDockerBuild   /opt/testDockerBuild/
 
 WORKDIR /opt/testDockerBuild
 
-EXPOSE 3030
+EXPOSE 8080
 CMD ["./testDockerBuild"]
 
